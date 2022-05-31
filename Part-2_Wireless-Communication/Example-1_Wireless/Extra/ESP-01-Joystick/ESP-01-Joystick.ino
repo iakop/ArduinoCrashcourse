@@ -48,7 +48,7 @@ void handleWebSocketMessage(void *arg, uint8_t *data, size_t len){
       xPos = xStr.toInt();
       String yStr = joystickStr.substring(yIdx+2);
       yPos = yStr.toInt();
-      yPos = -yPos;
+      yPos = yPos;
       newData = true;
       notifyClients();
     }
@@ -142,15 +142,6 @@ void setup(){
   Serial.println(myIP);
   Serial.print("Password: ");
   Serial.println(myIP);
-/*
-  // Connect to Wi-Fi
-  WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.println("Connecting to WiFi..");
-  }
-  // Print ESP32 Local IP Address
-  Serial.println(WiFi.localIP());*/
   
   // Route for root / web page
   server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
