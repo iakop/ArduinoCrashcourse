@@ -32,7 +32,10 @@ Repository for the Arduino Crashcourse - Zero to Hero
 | <img src="/Part-2_Wireless-Communication/Example-1_Wireless/Example-1_Wireless_bb.png" alt="Wireless Example" width="400px"> |
 |-|
 | <b>Example 1:</b> Wireless</br>[Source code](https://raw.githubusercontent.com/iakop/ArduinoCrashcourse/main/Part-2_Wireless-Communication/Example-1_Wireless/Example-1_Wireless.ino) |
-| <b>Extra:</b> ESP-01 Joystick</br>[Directory and README](https://github.com/iakop/ArduinoCrashcourse/tree/main/Part-2_Wireless-Communication/Example-1_Wireless/Extra) |
+
+| <img src="/Part-2_Wireless-Communication/Example-1_Wireless/Extra/ESP-01-Joystick/ESP-01-Joystick_bb.png" alt="ESP-01 Programming Jig" width="400px"> |
+|-|
+| <b>Extra:</b> ESP-01 Joystick Software</br>[Directory and tools](https://github.com/iakop/ArduinoCrashcourse/tree/main/Part-2_Wireless-Communication/Example-1_Wireless/Extra) |
 
 ### Part 3: Motor Control
 

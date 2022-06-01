@@ -15,6 +15,11 @@ or
 etc.
 
 The Sketch should be uploaded to the board type: "Generic ESP8266 Module"
+To upload, the buttons need to be addeed like on "ESP-01-Joystick_bb.png"
+Press the top button and hold it down, to enable programming mode.
+While holding the top, press the bottom one, and the ESP-01 will reset in programming mode.
+Then press "Upload" on the Arduino IDE.
+
 Then when the sketch has been uploaded, upload ther SPIFFS content from the contained "data" folder. This contains the webpage to be served.
 
 The option is located:
